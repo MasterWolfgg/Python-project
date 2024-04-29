@@ -20,20 +20,26 @@ while True:
             for id, landmark in enumerate(landmarks):
                 x = int(landmark.x*frame_width)
                 y = int(landmark.y*frame_height)
-                if id == 8:
-                    cv2.circle(img=frame, center=(x,y), radius=10, color=(0, 255, 255))
-                    index_x = screen_width/frame_width*x
-                    index_y = screen_height/frame_height*y
-
+                if id==8:
+                    cv2.circle(img=frame,center=(x,y),radius=10,color=(0,255,255))
+                    index_x=(screen_width/frame_width)*x
+                    index_y=(screen_height/frame_height)*y
+                    # print(x,y)
+                    pyautogui.moveTo(index_x,index_y)
+                # if id == 8:
+                #     cv2.circle(img=frame, center=(x,y), radius=10, color=(0, 255, 255))
+                #     index_x = (screen_width/frame_width)*x
+                #     index_y = (screen_height/frame_height)*y
+                #     print(index_x,index_y)
+                #     # pyautogui.move(index_x,index_y)
                 if id == 4:
                     cv2.circle(img=frame, center=(x,y), radius=10, color=(0, 255, 255))
                     thumb_x = screen_width/frame_width*x
                     thumb_y = screen_height/frame_height*y
-                    #print('outside', abs(index_y - thumb_y))
-                    if abs(index_y - thumb_y) < 20:
+                    # print('outside', abs(index_y - thumb_y))
+                    if abs(index_y - thumb_y) < 60:
+                        # print('click')
                         pyautogui.click()
                         pyautogui.sleep(1)
-                    elif abs(index_y - thumb_y) < 100:
-                        pyautogui.moveTo(index_x, index_y)
     cv2.imshow('Virtual Mouse', frame)
     cv2.waitKey(1)
