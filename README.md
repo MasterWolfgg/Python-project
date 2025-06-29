@@ -1,32 +1,80 @@
-Hello Everyone ... these are some of my projects that I have done...
-# Instructions 
-# 01_handtracing_mouse
+<h1 align="center">🎯 Python Mini Projects Hub</h1>
 
-- for this project I have used Mediapipe , Opencv and PyautoGui libraries from the python libraries
-- for Mediapipe we have to use the 3.10 versionof python as it was not working on the recent versions
-- in this project we have the index finger of both the hands mapped to the mouse pointer so when we move around the index finger in the screen the mouse also moves
-- next if we touch the index finger with the thumb then the mouse performs the click function
-- the movement and clicking function may vary from system to system and thus to use this you may need to increase or decrease the contact ratio in the code
+<p align="center">
+  <em>A collection of beginner-friendly, real-life inspired Python mini projects — crafted to automate tasks and explore new tech stacks.</em><br>
+  <strong>Python • OpenCV • MediaPipe • Tkinter • PyAutoGUI</strong>
+</p>
 
-# 02_namechecker
+<p align="center">
+  <!-- Optional Project Button -->
+  <a href="https://github.com/MasterWolfgg" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/Visit%20My%20GitHub-MasterWolfgg-blueviolet?style=for-the-badge&logo=github&logoColor=white" alt="Visit GitHub"/>
+  </a>
+  <br><br>
+  <a href="https://github.com/MasterWolfgg">
+    <img src="https://img.shields.io/github/stars/MasterWolfgg?style=social" alt="GitHub stars"/>
+  </a>
+</p>
 
-- this was a project that I made when I needed to check a bunch of names from a text file. I made this specifically to automate the attendance process in my college but still have not completed the full project
-- in this project we have to put the location of the name list file and then we can search from the file 
+---
 
-# 03_namecheceker2
-- this is the modified version of the name checeker version 
-- here I have just used tkinter to create a GUI
+## 🌟 Project Highlights
 
-# 04_qrcodegenerator
-- this was also made for my college purpose to create an unique Identification for all people 
-- it was also an idea to make into a security system but it lagged the main purpose of time saving as I had to manually input all the names else it became messy 
-- i will make changes into this one specifically for a full security system in the future 
+| Project                      | Features                                                              |
+|-----------------------------|-----------------------------------------------------------------------|
+| 🖐️ Hand Tracing Mouse        | Hand-controlled mouse using MediaPipe and OpenCV                     |
+| 📋 Name Checker (CLI)        | Attendance tool via name searching from a file                        |
+| 💻 Name Checker 2 (GUI)      | GUI-based name checker with Tkinter                                   |
+| 📦 QR Code Generator         | Generates unique QR codes for identification                          |
+| 🖱️ Hand Controlled Actions 2 | Mouse movement + click via hand gestures (improved version)           |
 
-# 05_hand_controlled_actions
-- this is the modified version for the fist hand tracing mouse 
-- the mouse move whenever teh index and middle finger is touches each other (as if it was directing using 2 fingers)
-- the mouse clicking is mapped to index and thumb touch.
-- I will be improving this project also in the future to make the mouse movement more accurate.
+---
 
-Thank you 
-  
+## 🔧 Tech Stack
+
+| Area       | Tools Used                                     |
+|------------|------------------------------------------------|
+| **Vision** | Python · OpenCV · MediaPipe                    |
+| **UI**     | Tkinter                                        |
+| **GUI**    | Tkinter                                        |
+| **Automation** | PyAutoGUI                                 |
+| **QR**     | qrcode (Python lib)                            |
+
+---
+
+## ⚙️ Installation
+
+```bash
+pip install opencv-python mediapipe pyautogui qrcode
+```
+
+> ⚠️ Use Python 3.10 for MediaPipe compatibility.
+
+---
+
+## ✅ To-Do List
+
+- [ ] Complete name checker automation
+- [ ] Enhance hand tracking precision
+- [ ] Add automatic name import in QR generator
+- [ ] Cross-platform testing
+
+---
+
+## 🧠 About Me
+
+**Sarbobhowma Sen**  
+👨‍💻 Front-End Developer | 🧠 CS Student | 🤖 Tech Explorer
+
+- 🐙 [GitHub](https://github.com/MasterWolfgg)
+- 🔗 [LinkedIn](https://linkedin.com/in/your-profile)
+
+> Open to internships, freelance projects, and collaborations!
+
+---
+
+## ⭐ Like this project?
+
+If you found this project helpful or inspiring, please give it a ⭐ — it really helps!
+
+<p align="center"><em>Thanks for scrolling! Made with 💖 by Sarbobhowma Sen</em></p>
